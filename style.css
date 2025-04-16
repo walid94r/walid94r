@@ -1,1 +1,220 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: gray;
+}
 
+.entete {
+  background-color: #fff7f3;
+  padding: 40px 20px;
+  
+}
+
+h1{
+  font-size: 40px;
+  margin-bottom: 10px;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+.texte-intro {
+  font-size: 20px;
+  font-style: italic;
+}
+
+
+
+img{
+  height: auto;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.nav {
+  background-color: #5b58f0;
+  padding: 15px;
+  text-align: center;
+  }
+
+
+.liste-liens {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.liste-liens li {
+  display: inline;
+  margin: 0 20px;
+}
+
+.liste-liens a {
+   color: rgb(228, 222, 225);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.section {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.claire {
+  background-color: #fff7f3;
+}
+
+.foncee {
+  background-color: #fff7f3;
+}
+
+.titre-section {
+  font-size: 35px;
+  color: #595ae8;
+  margin-bottom: 45px;
+}
+
+.paragraphe {
+  font-size: 19px;
+  margin: auto;
+  line-height: 1.6;
+  color: #000000;
+}
+
+.grille-qualites {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 30px;
+  animation-duration: 3s;
+  animation-name: glissement;
+  animation-iteration-count: unset;
+}
+
+
+
+@keyframes glissement {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+
+
+
+.carte-qualite {
+  background-color: white;
+  padding: 15px 25px;
+  border-radius: 8px;
+  font-weight: bold;
+  color: rgb(55, 55, 119);
+  font-size: 19px;
+  box-shadow: -9px -18px 8px 0px rgb(18 17 254);
+}
+
+.ligne-parcours {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 600px;
+  margin: 30px ;
+}
+
+.etape {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  
+  padding: 20px;
+  border-left: 5px solid blue;
+  border-radius: 5px;
+  box-shadow: 20px -20px 10px  rgb(255 112 239);
+  text-align: left;
+  animation-duration: 15s;
+  animation-name: glissement;
+  animation-iteration-count: unset;
+}
+@keyframes glissement {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+}
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+
+.etape h3 {
+  color: #004d99;
+  margin-bottom: 5px;
+}
+
+.boite-projets {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.projet {
+  background-color: white;
+  padding: 20px;
+  width: 250px;
+  border-radius: 8px;
+  box-shadow:-19px -20px 10px rgb(0 0 255);
+  animation-duration: 3s;
+  animation-delay: 15s;
+  animation-name: glissement;
+  animation-iteration-count: unset;
+  
+}
+
+
+
+
+.nom-projet {
+  color: #004d99;
+  margin-bottom: 10px;
+}
+
+.texte-projet {
+  font-size: 15px;
+}
+
+.bouton {
+  display: inline-block;
+  padding: 12px 25px;
+  background-color: #0066cc;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.bouton:hover {
+  background-color: #004d99;
+}
+
+.pied-page {
+  background-color: #5b58f0;
+  padding: 20px;
+  text-align: center;
+}
+
+.texte-footer {
+  font-size: 16px;
+  color: #fff7f3;
+}
+   
